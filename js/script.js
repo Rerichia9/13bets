@@ -60,9 +60,9 @@ setPrefLang();
 const swiper = new Swiper('.swiper', {
   spaceBetween: 50,
   centeredSlides: true,
-  speed: 10000,
+  speed: 3000,
   autoplay: {
-    delay: 1,
+    delay: 1000,
   },
   loop: true,
   slidesPerView: 5,
